@@ -1,0 +1,12 @@
+a = float(input("Enter the First Number : "))
+b = float(input("Enter the Second Number : "))
+print("0 - Add")
+print("0 - Subtract")
+print("0 - Multiply")
+print("0 - Divide")
+c = int(input("Enter the Operation Code : "))
+switch(c):
+case 1: print(a+b)
+case 2: print(a-b)
+case 3: print(a*b)
+case 4: print(a/b)
